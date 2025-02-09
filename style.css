@@ -1,0 +1,40 @@
+header{
+    background-color: #95EF46;
+    text-align: center;
+    color:black;
+}
+body{
+    background-color: #395C1A;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Вирівнює текст і фото по центру вертикально */
+}
+
+.image {
+    width: 350px;
+    height: 300px; /* Або потрібний розмір */
+    margin-right: 20px; /* Відступ між фото і текстом */
+    border-radius: 53px;
+}
+
+.text {
+    flex: 1; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    display: flex;
+    align-items: center; /* Вирівнює елементи по вертикалі */
+}
+
+.image2 {
+    width: 350px;
+    height: 300; /* Або потрібний розмір */
+    margin-left: 20px; /* Відступ між текстом і фото */
+    border-radius: 93px;
+}
+
+.text2 {
+    flex: 1; /* Щоб текст займав доступний простір */
+}
